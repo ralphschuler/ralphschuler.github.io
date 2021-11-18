@@ -65,6 +65,10 @@ index_generator:
   per_page: 10
   order_by: -date
 
+azy_load:
+  enable: true
+  all: true
+
 # Category & Tag
 default_category: uncategorized
 category_map:
