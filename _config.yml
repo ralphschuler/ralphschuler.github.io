@@ -11,6 +11,24 @@ author: Ralph Schuler
 language: en
 timezone: ''
 
+nav:
+  Home: /
+  Blog: /archives/
+  Projects: http://github.com/ralphschuler
+  About: /about/
+
+posts_overview:
+  show_all_posts: true
+
+copyright:
+  start_year: 2020
+  end_year:
+
+social_links:
+  github: http://github.com/ralphschuler
+  codepen: http://github.com/ralph-schuler
+  NAME: your-NAME-url
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://ralphschuler.github.io
