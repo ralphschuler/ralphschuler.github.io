@@ -3,7 +3,7 @@
     <id>http://example.com</id>
     <title>Hexo</title>
     <link href="http://example.com" />
-    <updated>2021-11-18T14:27:15.091Z</updated>
+    <updated>2021-11-18T14:31:18.278Z</updated>
     <entry>
         <id>http://example.com/2021/11/18/hello-world/</id>
         <title>Hello World</title>
@@ -22,6 +22,6 @@
 
 &lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
 </content>
-        <updated>2021-11-18T14:27:15.091Z</updated>
+        <updated>2021-11-18T14:31:18.278Z</updated>
     </entry>
 </feed>
