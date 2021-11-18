@@ -11,26 +11,6 @@ author: Ralph Schuler
 language: en
 timezone: ''
 
-
-projects_url: http://github.com/ralphschuler
-nav:
-  Home: /
-  Blog: /archives/
-  Projects: http://github.com/ralphschuler
-  About: /about/
-
-posts_overview:
-  show_all_posts: true
-
-copyright:
-  start_year: 2020
-  end_year:
-
-social_links:
-  github: http://github.com/ralphschuler
-  codepen: http://github.com/ralph-schuler
-  mail: mailto:ralph.schuler@nyphon.de
-
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://ralphschuler.github.io
