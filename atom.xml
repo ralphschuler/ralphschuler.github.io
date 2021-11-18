@@ -3,16 +3,7 @@
     <id>http://ralphschuler.github.io</id>
     <title>Ralph Schuler</title>
     <link href="http://ralphschuler.github.io" />
-    <updated>2021-11-18T16:26:12.000Z</updated>
-    <entry>
-        <id>http://ralphschuler.github.io/2021/11/18/Another-Test/</id>
-        <title>Another Test</title>
-        <link rel="alternate" href="http://ralphschuler.github.io/2021/11/18/Another-Test/"/>
-        <content type="html">&lt;h1 id=&#34;Container-Apps&#34;&gt;&lt;a href=&#34;#Container-Apps&#34; class=&#34;headerlink&#34; title=&#34;Container Apps&#34;&gt;&lt;/a&gt;Container Apps&lt;/h1&gt;&lt;p&gt;Applications like VSCode Postman and Chrome can be run in Docker.&lt;/p&gt;
-&lt;p&gt;TODO: FINISH!&lt;/p&gt;
-</content>
-        <updated>2021-11-18T16:26:12.000Z</updated>
-    </entry>
+    <updated>2021-11-18T16:26:22.569Z</updated>
     <entry>
         <id>http://ralphschuler.github.io/2021/11/18/hello-world/</id>
         <title>Hello World</title>
@@ -31,7 +22,7 @@
 
 &lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
 </content>
-        <updated>2021-11-18T16:22:49.353Z</updated>
+        <updated>2021-11-18T16:26:22.569Z</updated>
     </entry>
     <entry>
         <id>http://ralphschuler.github.io/2021/11/18/welcome/</id>
@@ -41,7 +32,16 @@
 &lt;p&gt;nothing to special at the moment.&lt;/p&gt;
 &lt;p&gt;Consider coming back at a later point.&lt;/p&gt;
 </content>
-        <updated>2021-11-18T16:22:49.353Z</updated>
+        <updated>2021-11-18T16:26:22.569Z</updated>
+    </entry>
+    <entry>
+        <id>http://ralphschuler.github.io/2021/11/18/Another-Test/</id>
+        <title>Another Test</title>
+        <link rel="alternate" href="http://ralphschuler.github.io/2021/11/18/Another-Test/"/>
+        <content type="html">&lt;h1 id=&#34;Container-Apps&#34;&gt;&lt;a href=&#34;#Container-Apps&#34; class=&#34;headerlink&#34; title=&#34;Container Apps&#34;&gt;&lt;/a&gt;Container Apps&lt;/h1&gt;&lt;p&gt;Applications like VSCode Postman and Chrome can be run in Docker.&lt;/p&gt;
+&lt;p&gt;TODO: FINISH!&lt;/p&gt;
+</content>
+        <updated>2021-11-18T16:26:12.000Z</updated>
     </entry>
     <entry>
         <id>http://ralphschuler.github.io/2021/11/18/Testing-with-Thumbnails/</id>
