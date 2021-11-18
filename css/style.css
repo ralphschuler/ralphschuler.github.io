@@ -1083,7 +1083,6 @@ article header .author {
 }
 article header .featured_image {
   margin-bottom: 1rem;
-  border-radius: 5px;
 }
 article header .featured_image > img {
   object-fit: contain;
@@ -1091,6 +1090,7 @@ article header .featured_image > img {
   margin: auto;
   max-width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 article header .postdate {
   display: inline;
