@@ -1082,9 +1082,10 @@ article header .author {
   font-weight: 700;
 }
 article header .featured_image > img {
+  position: relative;
   margin: auto;
   height: 100%;
-  width: 650px;
+  width: 100%;
 }
 article header .postdate {
   display: inline;
