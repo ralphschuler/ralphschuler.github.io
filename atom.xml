@@ -3,7 +3,16 @@
     <id>http://ralphschuler.github.io</id>
     <title>Ralph Schuler</title>
     <link href="http://ralphschuler.github.io" />
-    <updated>2021-11-18T15:00:48.635Z</updated>
+    <updated>2021-11-18T16:09:20.000Z</updated>
+    <entry>
+        <id>http://ralphschuler.github.io/2021/11/18/Testing-with-Thumbnails/</id>
+        <title>Testing with Thumbnails</title>
+        <link rel="alternate" href="http://ralphschuler.github.io/2021/11/18/Testing-with-Thumbnails/"/>
+        <content type="html">&lt;p&gt;THIS IS A TEST WITH IMAGES&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://via.placeholder.com/250x250&#34; alt=&#34;PLACEHOLDER&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://via.placeholder.com/250x500&#34; alt=&#34;PLACEHOLDER&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://via.placeholder.com/150x200&#34; alt=&#34;PLACEHOLDER&#34;&gt;&lt;/p&gt;
+</content>
+        <updated>2021-11-18T16:09:20.000Z</updated>
+    </entry>
     <entry>
         <id>http://ralphschuler.github.io/2021/11/18/hello-world/</id>
         <title>Hello World</title>
@@ -22,7 +31,7 @@
 
 &lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
 </content>
-        <updated>2021-11-18T15:00:48.635Z</updated>
+        <updated>2021-11-18T15:10:54.640Z</updated>
     </entry>
     <entry>
         <id>http://ralphschuler.github.io/2021/11/18/welcome/</id>
@@ -32,6 +41,6 @@
 &lt;p&gt;nothing to special at the moment.&lt;/p&gt;
 &lt;p&gt;Consider coming back at a later point.&lt;/p&gt;
 </content>
-        <updated>2021-11-18T15:00:48.635Z</updated>
+        <updated>2021-11-18T15:10:54.640Z</updated>
     </entry>
 </feed>
