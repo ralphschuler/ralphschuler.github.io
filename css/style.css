@@ -1082,6 +1082,7 @@ article header .author {
   font-weight: 700;
 }
 article header .featured_image {
+  margin-bottom: 1rem;
   border-radius: 5px;
 }
 article header .featured_image > img {
