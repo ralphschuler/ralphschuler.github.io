@@ -23,7 +23,7 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
         run: npm install
-      - name Update Submodules
+      - name: Update Submodules
         run: npm update
       - name: Build
         run: npm run build
