@@ -1083,6 +1083,8 @@ article header .author {
 }
 article header .featured_image {
   margin: auto;
+  height: 100%;
+  width: 300px;
 }
 article header .postdate {
   display: inline;
