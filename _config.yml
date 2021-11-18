@@ -100,13 +100,6 @@ ignore:
 theme: cactus
 theme_config:
   colorscheme: dark
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: https://github.com/ralphschuler/ralphschuler.github.io
-  branch: pages
-
 
 # Nofollow
 ## Docs: https://github.com/liuzc/hexo-autonofollow
