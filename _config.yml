@@ -98,8 +98,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: cactus
-  theme_config:
-    colorscheme: dark
+theme_config:
+  colorscheme: dark
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
@@ -109,7 +109,7 @@ deploy:
 # Nofollow
 ## Docs: https://github.com/liuzc/hexo-autonofollow
 nofollow:
-	enable: true
+  enable: true
 
 
 # Feed
