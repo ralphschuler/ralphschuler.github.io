@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "push": "git submodule foreach git commit -am \"$npm_config_message\" && git submodule foreach git push && git commit -am \"$npm_config_message\" && git push",
     "update": "git submodule update --init --recursive",
     "build": "hexo generate",
     "clean": "hexo clean",
