@@ -1,32 +1,7 @@
 [
    {
-      "name": "Container App",
-      "url": "https://github.com/container-app",
+      "name": "Container Apps",
+      "url": "https://github.com/container-apps",
       "desc": "Container Apps are Desktop Applications running in a docker Container"
-   },
-   {
-      "name": "Summarize It",
-      "url": "https://github.com/Summarize-it",
-      "desc": "Summarize Terms & Conditions"
-   },
-   {
-      "name": "Mediabrett.app",
-      "url": "https://github.com/ralphschuler/bilderbrett.app",
-      "desc": "Decentralized Media sharing Platform"
-   },
-   {
-      "name": "Automate Modpack",
-      "url": "https://github.com/ralphschuler/Automate",
-      "desc": "A Custom minecraft modpack focused on Automation & Exploration"
-   },
-   {
-      "name": "Prometheus export Visualizer",
-      "url": "https://github.com/ralphschuler/prometheus-export-visualizer",
-      "desc": "Visualize prometheus exports without the need of a central crawler"
-   },
-   {
-      "name": "Terraform Provider vyOs",
-      "url": "https://github.com/ralphschuler/terraform-provider-vyos",
-      "desc": "Terraform provider for vyOs"
    }
 ]
