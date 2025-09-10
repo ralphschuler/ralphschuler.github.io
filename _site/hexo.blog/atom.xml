@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ralph Schuler</title>
+  <icon>https://ralphschuler.github.io/icon.png</icon>
+  <subtitle>Writing about random stuff</subtitle>
+  <link href="https://ralphschuler.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://ralphschuler.github.io/"/>
+  <updated>2025-09-10T10:08:50.692Z</updated>
+  <id>https://ralphschuler.github.io/</id>
+  
+  <author>
+    <name>Ralph Schuler</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Welcome</title>
+    <link href="https://ralphschuler.github.io/post/Ty2R7-QAEINnzg44UsCIm/"/>
+    <id>https://ralphschuler.github.io/post/Ty2R7-QAEINnzg44UsCIm/</id>
+    <published>2025-09-10T10:08:50.692Z</published>
+    <updated>2025-09-10T10:08:50.692Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to my Blog,&lt;/p&gt;
+&lt;p&gt;nothing to special at the moment.&lt;/p&gt;
+&lt;p&gt;Consider coming back at a later</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo CLI Browser – From Concept to Early Beta</title>
+    <link href="https://ralphschuler.github.io/post/J3IQZwqj9szHYIYTh7mJC/"/>
+    <id>https://ralphschuler.github.io/post/J3IQZwqj9szHYIYTh7mJC/</id>
+    <published>2025-09-08T13:29:47.000Z</published>
+    <updated>2025-09-10T10:08:50.692Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Hexo CLI Browser – from concept to early beta&lt;/p&gt;
+&lt;p&gt;It all started with a simple observation: as developers, we spend most of our day</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
