@@ -1,0 +1,121 @@
+name: Aggregate gh-pages (build _site and push to main)
+
+on:
+  schedule:
+    - cron: "17 1 * * *"
+  workflow_dispatch: {}
+  repository_dispatch:
+    types: [aggregate-pages]
+
+permissions:
+  contents: write
+
+env:
+  TARGET_BRANCH: main
+
+jobs:
+  fetch_each_repo:
+    name: Fetch ${{ matrix.owner }}/${{ matrix.repo }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - owner: ralphschuler
+            repo: civilisation.dapp
+          - owner: ralphschuler
+            repo: hexo.blog
+    steps:
+      - name: Check gh-pages existence
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          API="https://api.github.com/repos/${{ matrix.owner }}/${{ matrix.repo }}/branches/gh-pages"
+          code=$(curl -sS -H "authorization: Bearer $GH_TOKEN" -o /tmp/branch.json -w "%{http_code}" "$API" || echo "000")
+          if [[ "$code" != "200" ]]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "reason=No gh-pages (HTTP $code)" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Download gh-pages zipball
+        if: steps.check.outputs.skip == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          ZIP_URL="https://api.github.com/repos/${{ matrix.owner }}/${{ matrix.repo }}/zipball/gh-pages"
+          curl -sSL -H "authorization: Bearer $GH_TOKEN" -o site.zip "$ZIP_URL"
+          UNZIP_DIR="$(mktemp -d)"
+          unzip -qq site.zip -d "$UNZIP_DIR"
+          TOP="$(find "$UNZIP_DIR" -mindepth 1 -maxdepth 1 -type d | head -n1 || true)"
+          test -n "$TOP" || { echo "Kein Inhalt entpackt"; exit 1; }
+          mkdir -p out
+          shopt -s dotglob
+          mv "$TOP"/* out/ || true
+          shopt -u dotglob
+          # .nojekyll ins Projekt-Unterverzeichnis (wird später unter _site/<repo>/ liegen)
+          touch out/.nojekyll
+
+      - name: Upload artifact for repo
+        if: steps.check.outputs.skip == 'false'
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-${{ matrix.repo }}
+          path: out
+
+  combine_and_commit:
+    name: Combine artifacts into _site and commit
+    runs-on: ubuntu-latest
+    needs: [fetch_each_repo]
+    steps:
+      - name: Checkout username.github.io
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Clean _site
+        run: |
+          rm -rf _site
+          mkdir -p _site
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: _collected
+          merge-multiple: false
+
+      - name: Assemble _site/<repo> from artifacts
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          for a in _collected/site-*; do
+            repo="${a##*_collected/site-}"
+            mkdir -p "_site/${repo}"
+            rsync -a "${a}/" "_site/${repo}/"
+          done
+          shopt -u nullglob
+          touch _site/.nojekyll
+
+      - name: Commit _site to main
+        env:
+          TARGET_BRANCH: ${{ env.TARGET_BRANCH }}
+        run: |
+          set -euo pipefail
+          CURRENT="$(git rev-parse --abbrev-ref HEAD)"
+          if [[ "$CURRENT" != "$TARGET_BRANCH" ]]; then
+            git checkout -B "$TARGET_BRANCH"
+          fi
+
+          git add -A _site
+          if git diff --cached --quiet; then
+            echo "No changes to _site."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(aggregate): update _site from gh-pages [skip ci]"
+          git push origin "$TARGET_BRANCH"
