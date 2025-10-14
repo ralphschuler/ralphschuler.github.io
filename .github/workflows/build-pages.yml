@@ -40,7 +40,6 @@ jobs:
 
       - name: Build
         run: |
-          yarn init
           yarn build
 
       - name: Assert build dir exists
