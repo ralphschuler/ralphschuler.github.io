@@ -39,7 +39,9 @@ jobs:
           yarn install --frozen-lockfile
 
       - name: Build
-        run: yarn build
+        run: |
+          yarn init
+          yarn build
 
       - name: Assert build dir exists
         run: test -d "${{ env.BUILD_DIR }}"
