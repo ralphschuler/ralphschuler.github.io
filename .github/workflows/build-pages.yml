@@ -9,11 +9,11 @@ permissions:
   contents: read
   pages: write
   deployments: write
+  id-token: write
 
 env:
   NODE_VERSION: "20"
   BUILD_DIR: "public"
-  TARGET_BRANCH: "gh-pages"
 
 jobs:
   build:
