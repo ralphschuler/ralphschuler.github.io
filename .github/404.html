@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>404 - Command Not Found</title>
+        <style>
+            /* Reset default margin and padding */
+            body {
+                background-color: #000;
+                color: #33ff33;
+                font-family: "Courier New", Courier, monospace;
+                margin: 0;
+                padding: 2rem;
+            }
+            /* Container for the faux terminal output */
+            .terminal {
+                max-width: 800px;
+                margin: 0 auto;
+                white-space: pre;
+                line-height: 1.4;
+            }
+            /* Error text in red to stand out */
+            .error {
+                color: #ff5555;
+            }
+            /* Link styling for suggested navigation */
+            a {
+                color: #8abeb7;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            /* Blinking cursor animation */
+            .cursor {
+                display: inline-block;
+                width: 10px;
+                height: 1em;
+                background: #33ff33;
+                margin-left: 2px;
+                vertical-align: bottom;
+                animation: blink 1s steps(2, start) infinite;
+            }
+            @keyframes blink {
+                50% {
+                    background: transparent;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="terminal">
+            $ <span class="error">404</span> command not found
+            <br />
+            $ <span>Oops! The page you're looking for doesn't exist.</span>
+            <br />
+            $ Try one of the following commands:
+            <br />
+            $ <a href="/">home</a> # return to the home directory
+            <br />
+            $ <a href="/contact">contact</a> # reach out to the webmaster
+            <span class="cursor"></span>
+        </div>
+    </body>
+</html>

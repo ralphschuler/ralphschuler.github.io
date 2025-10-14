@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Hexo Generator CLI",
+    "url": "https://github.com/ralphschuler/hexo-generator-cli",
+    "desc": "Hexo Generator CLI is a hexo generator which to create cli compatible websites."
+  },
+  {
+    "name": "Hexo Plugin SnipCart",
+    "url": "https://github.com/ralphschuler/hexo-plugin-snipcart",
+    "desc": "Hexo Plugin SnipCart is a hexo plugin which to create snipcart compatible websites."
+  }
+]

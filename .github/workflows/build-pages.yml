@@ -1,0 +1,53 @@
+name: Build static site to gh-pages (no deploy)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  id-token: write
+  pages: read
+
+env:
+  NODE_VERSION: "20"
+  BUILD_DIR: "public"
+  TARGET_BRANCH: "gh-pages"
+
+jobs:
+  build:
+    name: Build static site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install deps
+        run: |
+          yarn install --frozen-lockfile
+
+      - name: Build
+        run: yarn build
+
+      - name: Assert build dir exists
+        run: test -d "${{ env.BUILD_DIR }}"
+
+      - name: Add .nojekyll
+        run: touch "${{ env.BUILD_DIR }}/.nojekyll"
+
+      - name: Add CNAME (optional)
+        run: echo "git.nyphon.de" > "${{ env.BUILD_DIR }}/CNAME"
+
+      - name: Push to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ${{ env.BUILD_DIR }}
+          publish_branch: ${{ env.TARGET_BRANCH }}
+          force_orphan: true
