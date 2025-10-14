@@ -14,7 +14,7 @@ timezone: "Europe/Berlin"
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 root: /
-url: https://ralphschuler.github.io
+url: https://blog.nyphon.de
 permalink: post/:nanoid/
 permalink_defaults:
 pretty_urls:
