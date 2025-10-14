@@ -47,9 +47,6 @@ jobs:
       - name: Add .nojekyll
         run: touch "${{ env.BUILD_DIR }}/.nojekyll"
 
-      - name: Add CNAME (optional)
-        run: echo "git.nyphon.de" > "${{ env.BUILD_DIR }}/CNAME"
-
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v4
         with:
