@@ -45,9 +45,9 @@
     },
     "1306407933": {
       "repository": "whatsapp-replay-studio",
-      "deploymentId": 5692809920,
-      "sha": "9b669a8b6ae3f6be36f13d1fee5fb985f53f7003",
-      "deployedAt": "2026-07-31T14:06:28Z",
+      "deploymentId": 5697855314,
+      "sha": "f8427118226a00fc2f6e6fc8dced0ba33fcef0ef",
+      "deployedAt": "2026-07-31T20:39:05Z",
       "environmentUrl": "http://nyphon.de/whatsapp-replay-studio/"
     }
   }
