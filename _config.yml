@@ -4,18 +4,18 @@
 
 # Site
 title: Ralph Schuler
-subtitle: "Writing about random stuff"
-description: ""
+subtitle: "Open Source, Webentwicklung und Experimente"
+description: "Projekte, technische Notizen und Einblicke in meine Open-Source-Arbeit."
 keywords:
 author: Ralph Schuler
-language: en
+language: de
 timezone: "Europe/Berlin"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 root: /
-url: https://blog.nyphon.de
-permalink: post/:nanoid/
+url: https://nyphon.de
+permalink: post/:year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
@@ -34,7 +34,7 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
-titlecase: true # Transform title into titlecase
+titlecase: false # Preserve intentional capitalization, especially in German titles
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
@@ -86,7 +86,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: "mtime"
+updated_option: "date"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -128,61 +128,5 @@ feed:
   content_limit: 140
   content_limit_delim: " "
   order_by: -date
-  icon: icon.png
+  icon: images/favicon-192x192.png
   autodiscovery: true
-
-toJson:
-  configs:
-    global:
-      - title
-      - subtitle
-      - description
-      - author
-      - url
-      - per_page
-      - date_format
-      - time_format
-    theme: []
-  posts:
-    selectors:
-      - title
-      - date
-      - updated
-      - comments
-      - excerpt
-      - source
-      - full_source
-      - path
-      - permalink
-      - photos
-      - link
-      - path: tags
-        childrenSelectors:
-          - name
-          - slug
-          - permalink
-      - path: categories
-        childrenSelectors:
-          - name
-          - slug
-          - permalink
-    extracts:
-      - content
-  pages:
-    selectors:
-      - title
-      - date
-      - updated
-      - comments
-      - excerpt
-      - source
-      - full_source
-      - path
-      - permalink
-      - photos
-      - link
-    extracts:
-      - content
-  enablePagination: true
-  tags: true
-  categories: true

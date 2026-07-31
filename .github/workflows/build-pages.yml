@@ -3,13 +3,27 @@ name: Build static site and deploy to gh-pages
 on:
   push:
     branches: [main]
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Git reference to deploy
+        required: false
+        type: string
+  workflow_call:
+    inputs:
+      ref:
+        description: Exact Git reference to deploy
+        required: true
+        type: string
 
 permissions:
   contents: read
   pages: write
-  deployments: write
   id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 env:
   NODE_VERSION: "20"
@@ -23,6 +37,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v5
         with:
+          ref: ${{ inputs.ref || github.sha }}
           submodules: recursive
 
       - name: Configure GitHub Pages
