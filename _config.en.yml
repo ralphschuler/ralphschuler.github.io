@@ -1,0 +1,8 @@
+# English site overlay. The build combines this file with _config.yml.
+subtitle: "Open source, web engineering and experiments"
+description: "Projects, technical notes and insights into my open-source work."
+language: en
+url: https://nyphon.de/en
+root: /en/
+source_dir: source-en
+public_dir: public/en

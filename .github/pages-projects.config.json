@@ -1,0 +1,60 @@
+{
+  "owner": "ralphschuler",
+  "siteRepository": "ralphschuler.github.io",
+  "siteUrl": "https://nyphon.de",
+  "includeForks": false,
+  "includeArchived": false,
+  "excludedRepositories": [],
+  "overrides": {
+    ".ts-libs": {
+      "name": "TypeScript Libraries",
+      "descriptions": {
+        "de": "Eine veröffentlichte Sammlung wiederverwendbarer TypeScript-Bibliotheken und Release-Dokumentation.",
+        "en": "A published collection of reusable TypeScript libraries with release documentation."
+      }
+    },
+    "civilisation.dapp": {
+      "name": "Civilisation DApp",
+      "descriptions": {
+        "de": "Dezentrales Village-Builder-Spiel mit React, Vite, Worldchain-Anbindung und Smart Contracts.",
+        "en": "A decentralized village-building game using React, Vite, Worldchain connectivity and smart contracts."
+      }
+    },
+    "openmediavault-plugins": {
+      "name": "OpenMediaVault Plugins",
+      "descriptions": {
+        "de": "Monorepo für OpenMediaVault-7-Plugins mit automatisierten Debian-Paketen und APT-Repository.",
+        "en": "A monorepo for OpenMediaVault 7 plugins with automated Debian packages and an APT repository."
+      }
+    },
+    "sandclock": {
+      "name": "Sandclock",
+      "descriptions": {
+        "de": "Ein TypeScript- und WebGL-Experiment mit Shadern und einer sich fortlaufend verändernden Pixel-Landschaft.",
+        "en": "A TypeScript and WebGL experiment with shaders and an endlessly evolving field of pixels."
+      }
+    },
+    "terra-hub": {
+      "name": "TerraHub",
+      "descriptions": {
+        "de": "Modulare Open-Source-Steuerung und Diagnoseplattform für Terrarien und Vivarien.",
+        "en": "Modular open-source control and diagnostics platform for terrariums and vivariums."
+      }
+    },
+    "whatsapp-replay-studio": {
+      "name": "WhatsApp Replay Studio",
+      "descriptions": {
+        "de": "Exportierte WhatsApp-Chats inklusive Medien als authentisches Replay abspielen und als Video rendern.",
+        "en": "Replay exported WhatsApp chats with their media and render them as a video."
+      },
+      "url": "https://nyphon.de/whatsapp-replay-studio/"
+    },
+    "TopoLens": {
+      "name": "TopoLens",
+      "descriptions": {
+        "de": "Visualisiert aktuelle BGP-Ankündigungen und -Rückzüge aus dem RIPE-RIS-Live-Feed im Browser.",
+        "en": "Visualizes live BGP announcements and withdrawals from the RIPE RIS Live feed in the browser."
+      }
+    }
+  }
+}

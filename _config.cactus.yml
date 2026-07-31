@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/ralphschuler
+projects_url: /projects/
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -14,10 +14,12 @@ direction: ltr
 # navigation menu. Optionally, you can add translations for the 'Key' in
 # languages/*.yml
 nav:
-  Home: /
-  Blog: /archives/
-  Projects: http://github.com/ralphschuler
-  About: /about/
+  home: /
+  articles: /archives/
+  projects: /projects/
+  about: /about/
+  DE: https://nyphon.de/
+  EN: https://nyphon.de/en/
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
@@ -25,9 +27,9 @@ nav:
 # only 'mail' is an exception.
 
 social_links:
-  - link: http://github.com/ralphschuler
+  - link: https://github.com/ralphschuler
     icon: github
-  - link: http://codepen.io/ralph-schuler
+  - link: https://codepen.io/ralph-schuler
     icon: codepen
   - link: mailto:ralph.schuler@nyphon.de
     icon: mail
