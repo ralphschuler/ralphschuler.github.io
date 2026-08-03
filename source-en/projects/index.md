@@ -8,6 +8,14 @@ permalink: projects/index.html
 
 These are my automatically discovered GitHub Pages projects. The catalog is refreshed after successful deployments.
 
+## [TopoLens](<https://nyphon.de/TopoLens/>)
+
+Mobile live observer for BGP routes and AS\-topology changes with network\-name search, path diffs and explicit feed\-gap handling\.
+
+Last successful deployment: 2026-08-03
+
+[View project](<https://nyphon.de/TopoLens/>) · [Source code](<https://github.com/ralphschuler/TopoLens>)
+
 ## [Fundf](<https://nyphon.de/fundf/>)
 
 Open\-source project with a published GitHub Pages demo\.
@@ -31,14 +39,6 @@ Modular open\-source control and diagnostics platform for terrariums and vivariu
 Last successful deployment: 2025-11-28
 
 [View project](<https://nyphon.de/terra-hub/>) · [Source code](<https://github.com/ralphschuler/terra-hub>)
-
-## [TopoLens](<https://nyphon.de/TopoLens/>)
-
-Visualizes live BGP announcements and withdrawals from the RIPE RIS Live feed in the browser\.
-
-Last successful deployment: 2025-10-17
-
-[View project](<https://nyphon.de/TopoLens/>) · [Source code](<https://github.com/ralphschuler/TopoLens>)
 
 ## [OpenMediaVault Plugins](<https://nyphon.de/openmediavault-plugins/>)
 
