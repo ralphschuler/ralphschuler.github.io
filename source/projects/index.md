@@ -48,14 +48,6 @@ Letzte erfolgreiche Veröffentlichung: 2025-11-28
 
 [Projekt ansehen](<https://nyphon.de/terra-hub/>) · [Quellcode](<https://github.com/ralphschuler/terra-hub>)
 
-## [OpenMediaVault Plugins](<https://nyphon.de/openmediavault-plugins/>)
-
-Monorepo für OpenMediaVault\-7\-Plugins mit automatisierten Debian\-Paketen und APT\-Repository\.
-
-Letzte erfolgreiche Veröffentlichung: 2025-10-14
-
-[Projekt ansehen](<https://nyphon.de/openmediavault-plugins/>) · [Quellcode](<https://github.com/ralphschuler/openmediavault-plugins>)
-
 ## [Civilisation DApp](<https://ralphschuler.github.io/civilisation.dapp/>)
 
 Dezentrales Village\-Builder\-Spiel mit React, Vite, Worldchain\-Anbindung und Smart Contracts\.

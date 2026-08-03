@@ -50,16 +50,6 @@
     "deploymentSha": "0f3b98dfd48523a1815b3eb50aa9d7bc7bb4e061"
   },
   {
-    "id": 1074731179,
-    "name": "OpenMediaVault Plugins",
-    "url": "https://nyphon.de/openmediavault-plugins/",
-    "desc": "Monorepo für OpenMediaVault\\-7\\-Plugins mit automatisierten Debian\\-Paketen und APT\\-Repository\\.",
-    "repository": "ralphschuler/openmediavault-plugins",
-    "repositoryUrl": "https://github.com/ralphschuler/openmediavault-plugins",
-    "deployedAt": "2025-10-14T18:46:45Z",
-    "deploymentSha": "d654cde22c9963365411e1aabb3ace8af8be1c1b"
-  },
-  {
     "id": 1055077525,
     "name": "Civilisation DApp",
     "url": "https://ralphschuler.github.io/civilisation.dapp/",
