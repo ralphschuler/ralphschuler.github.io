@@ -8,6 +8,14 @@ permalink: projects/index.html
 
 These are my automatically discovered GitHub Pages projects. The catalog is refreshed after successful deployments.
 
+## [Fundf](<https://nyphon.de/fundf/>)
+
+Open\-source project with a published GitHub Pages demo\.
+
+Last successful deployment: 2026-08-03
+
+[View project](<https://nyphon.de/fundf/>) · [Source code](<https://github.com/ralphschuler/fundf>)
+
 ## [WhatsApp Replay Studio](<https://nyphon.de/whatsapp-replay-studio/>)
 
 Replay exported WhatsApp chats with their media and render them as a video\.
