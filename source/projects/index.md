@@ -8,6 +8,14 @@ permalink: projects/index.html
 
 Hier findest du meine automatisch erkannten GitHub-Pages-Projekte. Die Liste wird nach erfolgreichen Veröffentlichungen aktualisiert.
 
+## [TypeScript Libraries](<https://nyphon.de/.ts-libs/>)
+
+Eine veröffentlichte Sammlung wiederverwendbarer TypeScript\-Bibliotheken und Release\-Dokumentation\.
+
+Letzte erfolgreiche Veröffentlichung: 2026-08-03
+
+[Projekt ansehen](<https://nyphon.de/.ts-libs/>) · [Quellcode](<https://github.com/ralphschuler/.ts-libs>)
+
 ## [TopoLens](<https://nyphon.de/TopoLens/>)
 
 Mobiler Live\-Observer für BGP\-Routen und AS\-Topologieänderungen mit Namenssuche, Pfad\-Diffs und sichtbaren Feed\-Lücken\.
@@ -55,14 +63,6 @@ Dezentrales Village\-Builder\-Spiel mit React, Vite, Worldchain\-Anbindung und S
 Letzte erfolgreiche Veröffentlichung: 2025-10-07
 
 [Projekt ansehen](<https://ralphschuler.github.io/civilisation.dapp/>) · [Quellcode](<https://github.com/ralphschuler/civilisation.dapp>)
-
-## [TypeScript Libraries](<https://ralphschuler.github.io/ts-libs/>)
-
-Eine veröffentlichte Sammlung wiederverwendbarer TypeScript\-Bibliotheken und Release\-Dokumentation\.
-
-Letzte erfolgreiche Veröffentlichung: 2023-11-27
-
-[Projekt ansehen](<https://ralphschuler.github.io/ts-libs/>) · [Quellcode](<https://github.com/ralphschuler/.ts-libs>)
 
 ## [Sandclock](<https://ralphschuler.github.io/sandclock/>)
 
