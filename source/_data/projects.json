@@ -1,5 +1,15 @@
 [
   {
+    "id": 1077856806,
+    "name": "TopoLens",
+    "url": "https://nyphon.de/TopoLens/",
+    "desc": "Mobiler Live\\-Observer für BGP\\-Routen und AS\\-Topologieänderungen mit Namenssuche, Pfad\\-Diffs und sichtbaren Feed\\-Lücken\\.",
+    "repository": "ralphschuler/TopoLens",
+    "repositoryUrl": "https://github.com/ralphschuler/TopoLens",
+    "deployedAt": "2026-08-03T04:10:36Z",
+    "deploymentSha": "6fd5788e9f33f6e0efeb1a1a5e67002bab045ca9"
+  },
+  {
     "id": 1321079205,
     "name": "Fundf",
     "url": "https://nyphon.de/fundf/",
@@ -28,16 +38,6 @@
     "repositoryUrl": "https://github.com/ralphschuler/terra-hub",
     "deployedAt": "2025-11-28T16:35:59Z",
     "deploymentSha": "0f3b98dfd48523a1815b3eb50aa9d7bc7bb4e061"
-  },
-  {
-    "id": 1077856806,
-    "name": "TopoLens",
-    "url": "https://nyphon.de/TopoLens/",
-    "desc": "Visualisiert aktuelle BGP\\-Ankündigungen und \\-Rückzüge aus dem RIPE\\-RIS\\-Live\\-Feed im Browser\\.",
-    "repository": "ralphschuler/TopoLens",
-    "repositoryUrl": "https://github.com/ralphschuler/TopoLens",
-    "deployedAt": "2025-10-17T09:24:24Z",
-    "deploymentSha": "68a07c23ee9907b83f9a91d0232e94526e336621"
   },
   {
     "id": 1074731179,

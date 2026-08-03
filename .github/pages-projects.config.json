@@ -52,8 +52,8 @@
     "TopoLens": {
       "name": "TopoLens",
       "descriptions": {
-        "de": "Visualisiert aktuelle BGP-Ankündigungen und -Rückzüge aus dem RIPE-RIS-Live-Feed im Browser.",
-        "en": "Visualizes live BGP announcements and withdrawals from the RIPE RIS Live feed in the browser."
+        "de": "Mobiler Live-Observer für BGP-Routen und AS-Topologieänderungen mit Namenssuche, Pfad-Diffs und sichtbaren Feed-Lücken.",
+        "en": "Mobile live observer for BGP routes and AS-topology changes with network-name search, path diffs and explicit feed-gap handling."
       }
     }
   }
