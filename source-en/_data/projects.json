@@ -1,5 +1,15 @@
 [
   {
+    "id": 1329009663,
+    "name": "Idlemint",
+    "url": "https://nyphon.de/idlemint/",
+    "desc": "Idle village game demo with ERC\\-20 resource model",
+    "repository": "ralphschuler/idlemint",
+    "repositoryUrl": "https://github.com/ralphschuler/idlemint",
+    "deployedAt": "2026-08-09T17:24:24Z",
+    "deploymentSha": "b1e5e6e7de8a65cee6dc2fcba6868f50012b55cc"
+  },
+  {
     "id": 698258857,
     "name": "TypeScript Libraries",
     "url": "https://nyphon.de/.ts-libs/",

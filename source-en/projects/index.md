@@ -8,6 +8,14 @@ permalink: projects/index.html
 
 These are my automatically discovered GitHub Pages projects. The catalog is refreshed after successful deployments.
 
+## [Idlemint](<https://nyphon.de/idlemint/>)
+
+Idle village game demo with ERC\-20 resource model
+
+Last successful deployment: 2026-08-09
+
+[View project](<https://nyphon.de/idlemint/>) · [Source code](<https://github.com/ralphschuler/idlemint>)
+
 ## [TypeScript Libraries](<https://nyphon.de/.ts-libs/>)
 
 A published collection of reusable TypeScript libraries with release documentation\.

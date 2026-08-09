@@ -56,6 +56,13 @@
       "sha": "2b61d386f1523d48be1a333da32598e995cd5160",
       "deployedAt": "2026-08-03T02:45:29Z",
       "environmentUrl": "http://nyphon.de/fundf/"
+    },
+    "1329009663": {
+      "repository": "idlemint",
+      "deploymentId": 5821078234,
+      "sha": "b1e5e6e7de8a65cee6dc2fcba6868f50012b55cc",
+      "deployedAt": "2026-08-09T17:24:24Z",
+      "environmentUrl": "http://nyphon.de/idlemint/"
     }
   }
 }

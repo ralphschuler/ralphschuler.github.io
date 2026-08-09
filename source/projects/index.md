@@ -8,6 +8,14 @@ permalink: projects/index.html
 
 Hier findest du meine automatisch erkannten GitHub-Pages-Projekte. Die Liste wird nach erfolgreichen Veröffentlichungen aktualisiert.
 
+## [Idlemint](<https://nyphon.de/idlemint/>)
+
+Open\-Source\-Projekt mit einer veröffentlichten GitHub\-Pages\-Demo\.
+
+Letzte erfolgreiche Veröffentlichung: 2026-08-09
+
+[Projekt ansehen](<https://nyphon.de/idlemint/>) · [Quellcode](<https://github.com/ralphschuler/idlemint>)
+
 ## [TypeScript Libraries](<https://nyphon.de/.ts-libs/>)
 
 Eine veröffentlichte Sammlung wiederverwendbarer TypeScript\-Bibliotheken und Release\-Dokumentation\.
