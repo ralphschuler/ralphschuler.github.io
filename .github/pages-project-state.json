@@ -59,9 +59,9 @@
     },
     "1329009663": {
       "repository": "idlemint",
-      "deploymentId": 5821362758,
-      "sha": "f98b47f5a92646b33861f726c83f3895735544cc",
-      "deployedAt": "2026-08-09T17:59:51Z",
+      "deploymentId": 5821981628,
+      "sha": "e93c4e27da170fad73d90aad6a928b50ad0c5137",
+      "deployedAt": "2026-08-09T19:15:20Z",
       "environmentUrl": "http://nyphon.de/idlemint/"
     }
   }
