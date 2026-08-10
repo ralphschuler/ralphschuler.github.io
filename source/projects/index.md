@@ -12,7 +12,7 @@ Hier findest du meine automatisch erkannten GitHub-Pages-Projekte. Die Liste wir
 
 Open\-Source\-Projekt mit einer veröffentlichten GitHub\-Pages\-Demo\.
 
-Letzte erfolgreiche Veröffentlichung: 2026-08-09
+Letzte erfolgreiche Veröffentlichung: 2026-08-11
 
 [Projekt ansehen](<https://nyphon.de/idlemint/>) · [Quellcode](<https://github.com/ralphschuler/idlemint>)
 
