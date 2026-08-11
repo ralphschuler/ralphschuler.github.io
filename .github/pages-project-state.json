@@ -59,9 +59,9 @@
     },
     "1329009663": {
       "repository": "civilization.dapp",
-      "deploymentId": 5847034495,
-      "sha": "7783db39c9a18a04a7baa4368a03ffe8b12052d5",
-      "deployedAt": "2026-08-11T08:31:48Z",
+      "deploymentId": 5855380700,
+      "sha": "828e308de73dd7bf812064c3b592c860beb19ba2",
+      "deployedAt": "2026-08-11T17:29:59Z",
       "environmentUrl": "http://nyphon.de/civilization.dapp/"
     }
   }
