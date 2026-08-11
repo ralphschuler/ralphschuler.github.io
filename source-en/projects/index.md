@@ -12,7 +12,7 @@ These are my automatically discovered GitHub Pages projects. The catalog is refr
 
 Idle village game demo with ERC\-20 resource model
 
-Last successful deployment: 2026-08-11
+Last successful deployment: 2026-08-12
 
 [View project](<https://nyphon.de/civilization.dapp/>) · [Source code](<https://github.com/ralphschuler/civilization.dapp>)
 
