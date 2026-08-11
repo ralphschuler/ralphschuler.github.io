@@ -8,13 +8,13 @@ permalink: projects/index.html
 
 Hier findest du meine automatisch erkannten GitHub-Pages-Projekte. Die Liste wird nach erfolgreichen Veröffentlichungen aktualisiert.
 
-## [Idlemint](<https://nyphon.de/idlemint/>)
+## [Civilization Dapp](<https://nyphon.de/civilization.dapp/>)
 
 Open\-Source\-Projekt mit einer veröffentlichten GitHub\-Pages\-Demo\.
 
 Letzte erfolgreiche Veröffentlichung: 2026-08-11
 
-[Projekt ansehen](<https://nyphon.de/idlemint/>) · [Quellcode](<https://github.com/ralphschuler/idlemint>)
+[Projekt ansehen](<https://nyphon.de/civilization.dapp/>) · [Quellcode](<https://github.com/ralphschuler/civilization.dapp>)
 
 ## [TypeScript Libraries](<https://nyphon.de/.ts-libs/>)
 
@@ -55,14 +55,6 @@ Modulare Open\-Source\-Steuerung und Diagnoseplattform für Terrarien und Vivari
 Letzte erfolgreiche Veröffentlichung: 2025-11-28
 
 [Projekt ansehen](<https://nyphon.de/terra-hub/>) · [Quellcode](<https://github.com/ralphschuler/terra-hub>)
-
-## [Civilisation DApp](<https://ralphschuler.github.io/civilisation.dapp/>)
-
-Dezentrales Village\-Builder\-Spiel mit React, Vite, Worldchain\-Anbindung und Smart Contracts\.
-
-Letzte erfolgreiche Veröffentlichung: 2025-10-07
-
-[Projekt ansehen](<https://ralphschuler.github.io/civilisation.dapp/>) · [Quellcode](<https://github.com/ralphschuler/civilisation.dapp>)
 
 ## [Sandclock](<https://ralphschuler.github.io/sandclock/>)
 

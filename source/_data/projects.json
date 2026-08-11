@@ -1,13 +1,13 @@
 [
   {
     "id": 1329009663,
-    "name": "Idlemint",
-    "url": "https://nyphon.de/idlemint/",
+    "name": "Civilization Dapp",
+    "url": "https://nyphon.de/civilization.dapp/",
     "desc": "Open\\-Source\\-Projekt mit einer veröffentlichten GitHub\\-Pages\\-Demo\\.",
-    "repository": "ralphschuler/idlemint",
-    "repositoryUrl": "https://github.com/ralphschuler/idlemint",
-    "deployedAt": "2026-08-11T01:44:50Z",
-    "deploymentSha": "55b96cfc8d284ccdc520763415184ac46f411dc0"
+    "repository": "ralphschuler/civilization.dapp",
+    "repositoryUrl": "https://github.com/ralphschuler/civilization.dapp",
+    "deployedAt": "2026-08-11T07:32:30Z",
+    "deploymentSha": "9b8d6ceeeef1f2e5302c19c18657299cc6005d8d"
   },
   {
     "id": 698258857,
@@ -58,16 +58,6 @@
     "repositoryUrl": "https://github.com/ralphschuler/terra-hub",
     "deployedAt": "2025-11-28T16:35:59Z",
     "deploymentSha": "0f3b98dfd48523a1815b3eb50aa9d7bc7bb4e061"
-  },
-  {
-    "id": 1055077525,
-    "name": "Civilisation DApp",
-    "url": "https://ralphschuler.github.io/civilisation.dapp/",
-    "desc": "Dezentrales Village\\-Builder\\-Spiel mit React, Vite, Worldchain\\-Anbindung und Smart Contracts\\.",
-    "repository": "ralphschuler/civilisation.dapp",
-    "repositoryUrl": "https://github.com/ralphschuler/civilisation.dapp",
-    "deployedAt": "2025-10-07T20:39:29Z",
-    "deploymentSha": "85c2efbae8474961ae2c99b81a36fb5860fc1c56"
   },
   {
     "id": 600069599,
