@@ -8,14 +8,6 @@ permalink: projects/index.html
 
 Hier findest du meine automatisch erkannten GitHub-Pages-Projekte. Die Liste wird nach erfolgreichen Veröffentlichungen aktualisiert.
 
-## [Civilization Dapp](<https://nyphon.de/civilization.dapp/>)
-
-Open\-Source\-Projekt mit einer veröffentlichten GitHub\-Pages\-Demo\.
-
-Letzte erfolgreiche Veröffentlichung: 2026-08-14
-
-[Projekt ansehen](<https://nyphon.de/civilization.dapp/>) · [Quellcode](<https://github.com/ralphschuler/civilization.dapp>)
-
 ## [TypeScript Libraries](<https://nyphon.de/.ts-libs/>)
 
 Eine veröffentlichte Sammlung wiederverwendbarer TypeScript\-Bibliotheken und Release\-Dokumentation\.
