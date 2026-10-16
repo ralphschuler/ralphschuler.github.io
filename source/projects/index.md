@@ -8,6 +8,14 @@ permalink: projects/index.html
 
 Hier findest du meine automatisch erkannten GitHub-Pages-Projekte. Die Liste wird nach erfolgreichen Veröffentlichungen aktualisiert.
 
+## [TypeScript Libraries](<https://nyphon.de/.ts-libs/>)
+
+Eine veröffentlichte Sammlung wiederverwendbarer TypeScript\-Bibliotheken und Release\-Dokumentation\.
+
+Letzte erfolgreiche Veröffentlichung: 2026-10-16
+
+[Projekt ansehen](<https://nyphon.de/.ts-libs/>) · [Quellcode](<https://github.com/ralphschuler/.ts-libs>)
+
 ## [Civilization Dapp](<https://nyphon.de/civilization.dapp/>)
 
 Open\-Source\-Projekt mit einer veröffentlichten GitHub\-Pages\-Demo\.
@@ -15,14 +23,6 @@ Open\-Source\-Projekt mit einer veröffentlichten GitHub\-Pages\-Demo\.
 Letzte erfolgreiche Veröffentlichung: 2026-08-17
 
 [Projekt ansehen](<https://nyphon.de/civilization.dapp/>) · [Quellcode](<https://github.com/ralphschuler/civilization.dapp>)
-
-## [TypeScript Libraries](<https://nyphon.de/.ts-libs/>)
-
-Eine veröffentlichte Sammlung wiederverwendbarer TypeScript\-Bibliotheken und Release\-Dokumentation\.
-
-Letzte erfolgreiche Veröffentlichung: 2026-08-03
-
-[Projekt ansehen](<https://nyphon.de/.ts-libs/>) · [Quellcode](<https://github.com/ralphschuler/.ts-libs>)
 
 ## [TopoLens](<https://nyphon.de/TopoLens/>)
 
