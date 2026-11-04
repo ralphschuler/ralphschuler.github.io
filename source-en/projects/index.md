@@ -8,6 +8,14 @@ permalink: projects/index.html
 
 These are my automatically discovered GitHub Pages projects. The catalog is refreshed after successful deployments.
 
+## [Travelrouter](<https://nyphon.de/travelrouter/>)
+
+Alpine Linux travel router for Raspberry Pi CM5 with offline setup, captive portal, firewall and downloadable images
+
+Last successful deployment: 2026-11-04
+
+[View project](<https://nyphon.de/travelrouter/>) · [Source code](<https://github.com/ralphschuler/travelrouter>)
+
 ## [TypeScript Libraries](<https://nyphon.de/.ts-libs/>)
 
 A published collection of reusable TypeScript libraries with release documentation\.

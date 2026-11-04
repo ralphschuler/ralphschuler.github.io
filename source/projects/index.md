@@ -8,6 +8,14 @@ permalink: projects/index.html
 
 Hier findest du meine automatisch erkannten GitHub-Pages-Projekte. Die Liste wird nach erfolgreichen Veröffentlichungen aktualisiert.
 
+## [Travelrouter](<https://nyphon.de/travelrouter/>)
+
+Open\-Source\-Projekt mit einer veröffentlichten GitHub\-Pages\-Demo\.
+
+Letzte erfolgreiche Veröffentlichung: 2026-11-04
+
+[Projekt ansehen](<https://nyphon.de/travelrouter/>) · [Quellcode](<https://github.com/ralphschuler/travelrouter>)
+
 ## [TypeScript Libraries](<https://nyphon.de/.ts-libs/>)
 
 Eine veröffentlichte Sammlung wiederverwendbarer TypeScript\-Bibliotheken und Release\-Dokumentation\.

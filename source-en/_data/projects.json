@@ -1,5 +1,15 @@
 [
   {
+    "id": 1445457197,
+    "name": "Travelrouter",
+    "url": "https://nyphon.de/travelrouter/",
+    "desc": "Alpine Linux travel router for Raspberry Pi CM5 with offline setup, captive portal, firewall and downloadable images",
+    "repository": "ralphschuler/travelrouter",
+    "repositoryUrl": "https://github.com/ralphschuler/travelrouter",
+    "deployedAt": "2026-11-04T11:28:17Z",
+    "deploymentSha": "2a93a99bfaeee1d0bbef405409585f320066b86b"
+  },
+  {
     "id": 698258857,
     "name": "TypeScript Libraries",
     "url": "https://nyphon.de/.ts-libs/",
