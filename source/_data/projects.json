@@ -1,5 +1,15 @@
 [
   {
+    "id": 1466468995,
+    "name": "Music Sorter",
+    "url": "https://nyphon.de/music-sorter/",
+    "desc": "Open\\-Source\\-Projekt mit einer veröffentlichten GitHub\\-Pages\\-Demo\\.",
+    "repository": "ralphschuler/music-sorter",
+    "repositoryUrl": "https://github.com/ralphschuler/music-sorter",
+    "deployedAt": "2026-11-24T19:12:05Z",
+    "deploymentSha": "df685256dee927734d87ad50e575d43ba0065bd9"
+  },
+  {
     "id": 1445457197,
     "name": "Travelrouter",
     "url": "https://nyphon.de/travelrouter/",

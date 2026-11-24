@@ -8,6 +8,14 @@ permalink: projects/index.html
 
 These are my automatically discovered GitHub Pages projects. The catalog is refreshed after successful deployments.
 
+## [Music Sorter](<https://nyphon.de/music-sorter/>)
+
+A local desktop tool for organizing music libraries\.
+
+Last successful deployment: 2026-11-24
+
+[View project](<https://nyphon.de/music-sorter/>) · [Source code](<https://github.com/ralphschuler/music-sorter>)
+
 ## [Travelrouter](<https://nyphon.de/travelrouter/>)
 
 Alpine Linux travel router for Raspberry Pi CM5 with offline setup, captive portal, firewall and downloadable images

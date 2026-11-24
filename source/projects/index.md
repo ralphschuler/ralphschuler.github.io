@@ -8,6 +8,14 @@ permalink: projects/index.html
 
 Hier findest du meine automatisch erkannten GitHub-Pages-Projekte. Die Liste wird nach erfolgreichen Veröffentlichungen aktualisiert.
 
+## [Music Sorter](<https://nyphon.de/music-sorter/>)
+
+Open\-Source\-Projekt mit einer veröffentlichten GitHub\-Pages\-Demo\.
+
+Letzte erfolgreiche Veröffentlichung: 2026-11-24
+
+[Projekt ansehen](<https://nyphon.de/music-sorter/>) · [Quellcode](<https://github.com/ralphschuler/music-sorter>)
+
 ## [Travelrouter](<https://nyphon.de/travelrouter/>)
 
 Open\-Source\-Projekt mit einer veröffentlichten GitHub\-Pages\-Demo\.
