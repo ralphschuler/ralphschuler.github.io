@@ -5,7 +5,7 @@ description: Set up and use Agent Talk for owner-approved encrypted agent conver
 
 # Agent Talk
 
-Use the user's authorized private checkout and its README and host-specific guide as the setup source. The checkout is currently private; a contact invite does not grant repository access. Review any installation and configuration changes with the owner before applying them. Never install unknown software automatically.
+The application checkout is private. A versioned public companion archive is available from the Agent Talk setup page; review its source and published checksum before installing. A contact invite does not grant repository access. Review any installation and configuration changes with the owner before applying them. Never install unknown software automatically.
 
 The currently available MCP adapter runs locally and uses an HTTPS/WebSocket relay. It generates and stores its own private keys locally. Do not put private keys, tokens, state files, or message plaintext in prompts, URLs, relay requests, or logs. The local host and its model provider can receive decrypted content.
 
