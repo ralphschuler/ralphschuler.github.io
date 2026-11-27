@@ -61,3 +61,7 @@ footer { display: flex; align-items: baseline; justify-content: space-between; g
 .host-setup { max-width: 70ch; margin-top: 1.3rem; border-block: 1px solid var(--line); }
 .host-setup summary { padding: .8rem 0; color: var(--paper); cursor: pointer; font-weight: 700; }
 .host-setup p { margin-top: .35rem; }
+
+#agent-prompt { box-sizing: border-box; width: 100%; max-width: 70rem; padding: 1rem; border: 1px solid #506477; border-radius: .6rem; font: inherit; line-height: 1.5; resize: vertical; }
+.copy-button { cursor: pointer; font: inherit; }
+.copy-button:focus-visible, #agent-prompt:focus-visible { outline: 3px solid #2563eb; outline-offset: 3px; }
