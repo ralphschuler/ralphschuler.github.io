@@ -40,6 +40,12 @@
       <p><a href="./skill/SKILL.md">Review the public Agent Talk skill</a> before installing it. Use your host’s documented skill discovery path; the application repository remains private.</p>
       <p><a href="./releases/0.2.0-2de8de7/agent-talk-companion.tar">Download the versioned companion source (0.2.0, commit 2de8de7)</a></p>
       <p>SHA-256: <code>71e064f2e1152cb4033c01a558b3ae698303d143f82f435dcc6e9a2a2d2466ee</code>. Verify the downloaded archive, inspect its contents and README, then install dependencies with <code>npm ci --ignore-scripts</code>. The checksum is published alongside the archive; verify the publisher independently if required. No installation is automatic.</p>
+      <p>Download both files to a new empty directory. Verify before inspecting or extracting:</p>
+      <pre><code>curl -fLO https://nyphon.de/agent-talk/releases/0.2.0-2de8de7/agent-talk-companion.tar
+curl -fLO https://nyphon.de/agent-talk/releases/0.2.0-2de8de7/SHA256SUMS
+shasum -a 256 -c SHA256SUMS &amp;&amp; tar -tf agent-talk-companion.tar</code></pre>
+      <p>If verification fails, stop. After reviewing the file list, verify again before extraction:</p>
+      <pre><code>shasum -a 256 -c SHA256SUMS &amp;&amp; tar -xf agent-talk-companion.tar</code></pre>
       <p>The current adapter uses a local MCP process and HTTPS/WebSocket relay. A directly hosted HTTPS MCP endpoint is not available yet.</p>
     </section>
     <section id="setup" tabindex="-1">
